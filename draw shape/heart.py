@@ -1,0 +1,13 @@
+from turtle import *
+t = Turtle()
+t.color('red', 'pink')
+t.begin_fill()
+t.left(45)
+t.fd(100)
+t.circle(50, 180)
+t.right(90)
+t.circle(50, 180)
+t.fd(100)
+t.end_fill()
+t.hideturtle()
+done()
